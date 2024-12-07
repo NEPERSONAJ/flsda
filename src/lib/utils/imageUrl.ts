@@ -13,7 +13,6 @@ export function extractImageUrl(data: any): string | null {
     
     // Try to find any URL pattern
     const urlPatterns = [
-      /https:\/\/storage\.googleapis\.com\/[a-zA-Z0-9/_.-]+/,
       /https:\/\/img\.naicloud\.xyz\/[a-zA-Z0-9/_.-]+/,
       /https?:\/\/[a-zA-Z0-9/_.-]+\.(jpg|jpeg|png|gif|webp)/i
     ];
